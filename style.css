@@ -60,6 +60,10 @@ h2 {
 
 p{
     font-size: 18px;
+    color: #333;
+    margin-bottom: 18px;
+    text-align: justify;
+    padding: 10px 15px;
 }
 
 img {
