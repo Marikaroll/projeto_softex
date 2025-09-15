@@ -12,3 +12,5 @@ O projeto conta com 5 paginas html, onde cada uma aborda os principais tópicos 
 ## Projeto desenvolvido pelos integrantes: 
 
 - Gabriel de Matos Ramos
+- Liliam Apolônia de Oliveira
+- Mariana Gomes Kottas
