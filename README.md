@@ -8,3 +8,7 @@ O projeto conta com 5 paginas html, onde cada uma aborda os principais tópicos 
     * Portas e Circuitos Quânticos
     * Algoritmos Quânticos
     * Correção de Erros e Desafios Tecnológicos
+
+## Projeto desenvolvido pelos integrantes: 
+
+- Gabriel de Matos Ramos
