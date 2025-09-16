@@ -14,3 +14,4 @@ O projeto conta com 5 paginas html, onde cada uma aborda os principais tópicos 
 - Gabriel de Matos Ramos
 - Liliam Apolônia de Oliveira
 - Mariana Gomes Kottas
+- Wellington da Silva Rodrigues
