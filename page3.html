@@ -1,66 +1,112 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Computação Quântica</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <a href="index.html">Qubit (Bit Quântica)</a>
-            <a href="page2.html">Superposição e Entrelaçamento</a>
-            <a href="#">Portas e Circuitos Quânticos</a>
-            <a href="page4.html">Algoritmos Quânticos</a>
-            <a href="page5.html">Correção de Erros e Desafios Tecnológicos</a>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Computação Quântica</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Qubit (Bit Quântica)</a>
+                <a href="page2.html">Superposição e Entrelaçamento</a>
+                <a href="#">Portas e Circuitos Quânticos</a>
+                <a href="page4.html">Algoritmos Quânticos</a>
+                <a href="page5.html">Correção de Erros e Desafios
+                    Tecnológicos</a>
+            </nav>
+        </header>
 
-    <main>
-        <div class="container">
-            <h1>Portas</h1>
-            
-            <p>Nos computadores clássicos, o processamento da informação ocorre através de circuitos lógicos que são agrupamentos de portas lógicas as quais executam operações sobre bits. Para os circuitos clássicos, cinco portas lógicas são os principais blocos construtores. Tais portas obedecem a álgebra booleana e podem ter suas entradas e saídas descritas em tabelas, como a exibida abaixo:</p>
-            
-            <img src="imagem1.png" alt="">
+        <main>
+            <div class="container">
+                <h1>Portas</h1>
 
-            <p>Os circuitos da computação quântica também são agrupamentos de portas quânticas, as quais realizam operações unitárias sobre qubits. Assim, 12 portas quânticas podem ser vistas como operadores ou matrizes unitárias, este fato é de grande importância pois assim todas as matrizes unitárias 2×2 podem representar portas quânticas de um qubit. Como exemplo de portas quânticas temos as matrizes de Pauli, vistas em sua representação matricial e na figura abaixo:</p>
+                <p>Nos computadores clássicos, o processamento da informação
+                    ocorre através de circuitos lógicos que são agrupamentos de
+                    portas lógicas as quais executam operações sobre bits. Para
+                    os circuitos clássicos, cinco portas lógicas são os
+                    principais blocos construtores. Tais portas obedecem a
+                    álgebra booleana e podem ter suas entradas e saídas
+                    descritas em tabelas, como a exibida abaixo:</p>
 
-            <img src="imagem2.png" alt="">
+                <img src="./imgs/imagem1.png" alt>
 
-            <p>O conjunto de portas quânticas que realizam operações unitárias sobre um qubit é infinito, pois as matrizes unitárias 2x2 são infinitas.
+                <p>Os circuitos da computação quântica também são agrupamentos
+                    de portas quânticas, as quais realizam operações unitárias
+                    sobre qubits. Assim, 12 portas quânticas podem ser vistas
+                    como operadores ou matrizes unitárias, este fato é de grande
+                    importância pois assim todas as matrizes unitárias 2×2 podem
+                    representar portas quânticas de um qubit. Como exemplo de
+                    portas quânticas temos as matrizes de Pauli, vistas em sua
+                    representação matricial e na figura abaixo:</p>
 
+                <img src="./imgs/imagem2.png" alt>
 
-Apesar de infinito, o conjunto de portas de um qubit não é universal, assim para realizar operações sobre qubits é necessário utilizar portas com mais de um qubit, como as portas quânticas CNOT e Toffoli, as quais realizam operações sobre 2 e 3 qubits respectivamente.
+                <p>O conjunto de portas quânticas que realizam operações
+                    unitárias sobre um qubit é infinito, pois as matrizes
+                    unitárias 2x2 são infinitas.
 
-CNOT ou NOT-controlado: A execução desta porta pode ser descrita da seguinte maneira: tendo o qubit |a> como o controlador da negação do qubit |b>, ou seja |b> será negado se e somente se |a> = |1>.
+                    Apesar de infinito, o conjunto de portas de um qubit não é
+                    universal, assim para realizar operações sobre qubits é
+                    necessário utilizar portas com mais de um qubit, como as
+                    portas quânticas CNOT e Toffoli, as quais realizam operações
+                    sobre 2 e 3 qubits respectivamente.
 
-Toffoli:  Seu funcionamento pode ser da seguinte maneira: caso os qubits |a> e |b> sejam iguais a |1> o qubit |c> será negado.
-</p>
-            
-            <h1>Circuitos Quânticos</h1>
-            
-            <p>Deustch propôs em 1985 um modelo para computação quântica universal, seria o correspondente a Máquina de Turing(MT) para computação clássica:</p>
+                    CNOT ou NOT-controlado: A execução desta porta pode ser
+                    descrita da seguinte maneira: tendo o qubit |a> como o
+                    controlador da negação do qubit |b>, ou seja |b> será negado
+                    se e somente se |a> = |1>.
 
-            <img src="imagem3.png" alt="">
+                    Toffoli: Seu funcionamento pode ser da seguinte maneira:
+                    caso os qubits |a> e |b> sejam iguais a |1> o qubit |c> será
+                    negado.
+                </p>
 
-            <p>Este modelo adicionava algumas características à MT, as quais permitia a representação de sobreposições. Porém o modelo inicialmente proposto era bastante complexo, assim Deustch criou representação mais simples para a computação quântica que era bastante semelhante ao modelo de circuitos clássicos. Por serem de fácil compreensão os circuitos quânticos vem sendo cada vez mais utilizados. 
-Alguns circuitos quânticos são: Circuito Swap e Circuito somador de 2 bits.
-</p>
-        </div>
-    </main>
+                <h1>Circuitos Quânticos</h1>
 
-    <!-- <footer>
-        <p>&copy; 2024 Computação Quântica. Todos os direitos reservados.</p>
-        <h4>Refencias:</h4>
-        <a href="https://www.alura.com.br/empresas/artigos/computacao-quantica?utm_term=&utm_campaign=&utm_source=google&utm_medium=cpc&campaign_id=22999622573__&utm_id=22999622573__&hsa_acc=7964138385&hsa_cam=&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=google&hsa_ver=3&gad_source=1&gad_campaignid=22993385739&gbraid=0AAAAADpqZIBKbzaZpcTDsYP2HgGgq-N99&gclid=Cj0KCQjw8p7GBhCjARIsAEhghZ0ZseNcQzabV4T5ziO0EA9vTWAJqUAXAwjv-tavSu2adPG8OomrhfwaAiYnEALw_wcB">Alura para Empresas</a>
+                <p>Deustch propôs em 1985 um modelo para computação quântica
+                    universal, seria o correspondente a Máquina de Turing(MT)
+                    para computação clássica:</p>
 
-        <a href="https://olhardigital.com.br/2024/09/25/ciencia-e-espaco/o-que-e-um-bit-quantico-qubit/">Olhar Digital</a>
+                <img src="./imgs/imagem3.png" alt>
 
-        <a href="https://aws.amazon.com/pt/what-is/quantum-computing/">AWS Amazon, o que é computação quântica</a>
-    </footer> -->
-    
-    <script src="script.js"></script>
-</body>
+                <p>Este modelo adicionava algumas características à MT, as quais
+                    permitia a representação de sobreposições. Porém o modelo
+                    inicialmente proposto era bastante complexo, assim Deustch
+                    criou representação mais simples para a computação quântica
+                    que era bastante semelhante ao modelo de circuitos
+                    clássicos. Por serem de fácil compreensão os circuitos
+                    quânticos vem sendo cada vez mais utilizados.
+                    Alguns circuitos quânticos são: Circuito Swap e Circuito
+                    somador de 2 bits.
+                </p>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Computação Quântica. Todos os direitos
+                reservados.</p>
+            <h4>Refências:</h4>
+            <a
+                href="https://www.alura.com.br/empresas/artigos/computacao-quantica?utm_term=&utm_campaign=&utm_source=google&utm_medium=cpc&campaign_id=22999622573__&utm_id=22999622573__&hsa_acc=7964138385&hsa_cam=&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=google&hsa_ver=3&gad_source=1&gad_campaignid=22993385739&gbraid=0AAAAADpqZIBKbzaZpcTDsYP2HgGgq-N99&gclid=Cj0KCQjw8p7GBhCjARIsAEhghZ0ZseNcQzabV4T5ziO0EA9vTWAJqUAXAwjv-tavSu2adPG8OomrhfwaAiYnEALw_wcB">Alura
+                para Empresas</a>
+
+            <a
+                href="https://olhardigital.com.br/2024/09/25/ciencia-e-espaco/o-que-e-um-bit-quantico-qubit/">Olhar
+                Digital</a>
+
+            <a href="https://aws.amazon.com/pt/what-is/quantum-computing/">AWS
+                Amazon, o que é computação quântica</a>
+
+            <a
+                href="https://decisionreport.com.br/correcao-de-erros-e-fundamental-para-trazer-a-computacao-quantica-a-realidade-comercial/">Correção
+                de erros é essencial para computação quântica chegar ao
+                mercado</a>
+
+            <a href="http://lad.dsc.ufcg.edu.br/arq/AC%20-%20Escrito%20-%20Circuitos%20Quanticos.pdf">Introdução a circuitos quânticos</a>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
 </html>

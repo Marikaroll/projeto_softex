@@ -102,3 +102,9 @@ footer a:hover {
     color: #080808;
     text-decoration: underline;
 }
+
+/* Responsividade */
+
+@media (max-win) {
+    
+}
